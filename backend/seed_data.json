@@ -1,0 +1,35 @@
+{
+  "riders": [
+    {
+      "id": "rider-001",
+      "name": "Alex Mwangi",
+      "phone": "+254712345678"
+    }
+  ],
+  "customers": [
+    {
+      "id": "customer-001",
+      "name": "Jane Wanjiku",
+      "phone": "+254798765432"
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "delivery-001",
+      "rider_id": "rider-001",
+      "customer_id": "customer-001",
+      "origin": {
+        "lat": -1.286389,
+        "lng": 36.817223,
+        "label": "Warehouse - Kimathi Street"
+      },
+      "destination": {
+        "lat": -1.292066,
+        "lng": 36.821946,
+        "label": "Customer - Kenyatta Avenue"
+      },
+      "notes": "Handle with care — fragile electronics",
+      "assumed_speed_mps": 5.0
+    }
+  ]
+}
